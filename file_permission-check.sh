@@ -11,6 +11,7 @@ if [ -r "$file" ]; then
 else 
 	echo "The file $file is not readable"
 
+echo "Adding an wrong commit"
 fi
 
 if [ -w "$file" ]; then
