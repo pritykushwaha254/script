@@ -1,0 +1,16 @@
+#!/bin/bash
+
+<<comment
+Trying Error handeling in script
+comment
+
+file=$1
+
+if [ -e "$file" ];  then 
+echo "file is  present"
+else
+	echo "file $file not present"
+	exit 1
+fi
+
+echo "--------------------We Answer your querry------------------------"
