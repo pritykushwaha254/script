@@ -1,7 +1,7 @@
 #!/bin/bash
 
 <<comment
-Trying Error handeling in script, here error hendaling means , if user input a file name which is not present the script will not run further, it will exit with code 1.
+Trying Error handeling in script
 comment
 
 file=$1
