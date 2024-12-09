@@ -1,0 +1,12 @@
+#!/bin/bash
+
+<<comment
+1 is argument 1, which is for folder name
+2 is start range
+3 is end range
+comment
+
+for (( num=$2 ; num<=$10 ; num++))
+do 
+   mkdir "$1num"
+done
