@@ -6,7 +6,7 @@
 3 is end range
 comment
 
-for (( num=$2 ; num<=$10 ; num++))
+for (( num=$2 ; num<=$3 ; num++ ))
 do 
-   mkdir "$1num"
+   mkdir "${1}${num}"
 done
